@@ -24,7 +24,7 @@ The models are evaluated across shared datasets, omics modalities, missingness l
 * dataset–omics interaction analysis;
 * failure-localisation analysis.
 
-## Relationship to MLOmics
+## Attribution 
 
 This repository builds on the public MLOmics benchmark repository by Yang et al.:
 
@@ -107,14 +107,12 @@ Main_Dataset/Imputation_datasets/
 The expected structure is:
 
 ```text
-cancer-multi-omics-imputation-benchmark/
+multiomics-imputation-dissertation/
 └── Main_Dataset/
     └── Imputation_datasets/
 ```
 
 The scripts in `scripts/` assume that the dataset is available at this relative path. If the dataset is stored elsewhere, the dataset path in the corresponding model scripts may need to be updated.
-
-This repository does not claim ownership of the original MLOmics datasets. The datasets remain part of the original MLOmics benchmark framework by Yang et al.
 
 ## Environment
 
@@ -188,15 +186,6 @@ The generated outputs include final benchmark results, hyperparameter tuning res
 ## Notes on Reproducibility
 
 The benchmark results may vary slightly depending on hardware, package versions, and random seed behaviour. The experiments were designed to reduce this variation by using shared benchmark settings, fixed random seeds, and consistent evaluation metrics across models.
-
-## Attribution
-
-This project builds on the MLOmics benchmark framework:
-
-**MLOmics: Cancer Multi-Omics Database for Machine Learning**
-Original repository: https://github.com/chenzRG/Cancer-Multi-Omics-Benchmark
-
-The original benchmark framework, dataset structure, and GAIN baseline are attributed to the original MLOmics authors. This repository provides dissertation-specific extensions, additional model implementations, evaluation refinements, result aggregation, and analysis scripts.
 
 ## Licence
 
