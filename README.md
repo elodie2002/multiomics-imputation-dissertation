@@ -64,7 +64,7 @@ In summary, MLOmics provides the benchmark foundation and original GAIN baseline
 ## Repository Structure
 
 ```text
-cancer-multi-omics-imputation-benchmark/
+multiomics-imputation-dissertation/
 │
 ├── README.md
 ├── environment.yml
@@ -76,7 +76,7 @@ cancer-multi-omics-imputation-benchmark/
 │       └── GAIN/
 │
 ├── Main_Dataset/
-│   └── Imputation_datasets/   # Download from original MLOmics repository if not included
+│   └── Imputation_datasets/   # Download from original MLOmics repository 
 │
 └── scripts/
     ├── DAE.sh
