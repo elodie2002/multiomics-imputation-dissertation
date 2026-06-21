@@ -191,5 +191,5 @@ The benchmark results may vary slightly depending on hardware, package versions,
 
 Please refer to the original MLOmics repository for the licence terms covering the original benchmark framework and dataset-related components.
 
-Any additional code written specifically for this repository is provided for research and educational purposes. Before reusing or redistributing this repository, please check the licence conditions of the original MLOmics project.
+Any additional code written specifically for this repository is provided for research purpose. Before reusing or redistributing this repository, please check the licence conditions of the original MLOmics project.
 
